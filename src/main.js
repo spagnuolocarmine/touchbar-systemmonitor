@@ -3,7 +3,7 @@ const path = require('path')
 const url = require('url')
 const si = require('systeminformation');
 
-const appName = "System Monitor"
+const appName = "Touchbar System Monitor"
 const {TouchBarButton, TouchBarLabel, TouchBarSpacer} = TouchBar
 
 let window;
@@ -148,7 +148,8 @@ const focusOnWindow = () => {
 }
 app.once('ready', () => {
   window = new BrowserWindow({
-    width: 0, height: 0
+    width: 0, height: 0,
+    title: appName,
   });
  
   window.setTouchBar(touchBar);
