@@ -1,0 +1,24 @@
+{
+  "name": "touchbar-systemmonitor",
+  "version": "0.0.1",
+  "description": "A system monitor in Apple MacBook Pro touch bar -- use it with commmand: CommandOrControl+Shift+1",
+  "main": "src/main.js",
+  "engines": {
+    "node": ">=5.6"
+  },
+  "dependencies": {
+    "systeminformation": "^4.23.0"
+  },
+  "devDependencies": {
+    "electron": "^1.6.3"
+  },
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spagnuolocarmine/touchbar-systemmonitor.git"
+  },
+  "author": "Carmine Spagnuolo",
+  "license": "MIT"
+}
