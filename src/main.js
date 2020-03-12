@@ -1,7 +1,8 @@
 const {app, BrowserWindow, TouchBar, Tray, globalShortcut, nativeImage} = require('electron')
 const path = require('path')
-const url = require('url')
 const si = require('systeminformation');
+const spawn = require('child_process').spawn;
+// colors https://flatuicolors.com/palette/defo
 
 const appName = "Touchbar System Monitor"
 const {TouchBarButton, TouchBarLabel, TouchBarSpacer} = TouchBar
@@ -51,7 +52,7 @@ const battery = new TouchBarButton({
 })
 const disk = new TouchBarButton({
   label: '',
-  backgroundColor: "#bdc3c7",
+  backgroundColor: "#9b59b6",
   icon: path.join(__dirname, 'icons/hard-disk-drive.png'),
   iconPosition: "left",
   click: () => {
@@ -114,9 +115,19 @@ const updateData = () => {
       }
     })
   })
-
-
 }
+
+
+const activitymonitor = new TouchBarButton({
+  label: '',
+  backgroundColor: "#34495e",
+  icon: path.join(__dirname, 'icons/activity.png'),
+  iconPosition: "center",
+  click: () => {
+    spawn("/System/Applications/Utilities/Activity Monitor.app/Contents/MacOS/Activity\ Monitor", []);
+  }
+})
+
 const touchBar = new TouchBar([
   cpu,
   new TouchBarSpacer({size: 'small'}),
@@ -128,6 +139,7 @@ const touchBar = new TouchBar([
   new TouchBarSpacer({size: 'small'}),
   battery,
   new TouchBarSpacer({size: 'small'}),
+  activitymonitor
   
 ])
 
@@ -168,10 +180,13 @@ app.once('ready', () => {
   globalShortcut.register('CommandOrControl+Shift+1', () => {
     focusOnWindow()
   })
+  globalShortcut.register('CommandOrControl+Shift+0', () => {
+    app.quit();
+  })
  
 })
 
 app.on('window-all-closed', () => {
-    app.quit();
+  app.quit();
 });
 
