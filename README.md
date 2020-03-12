@@ -31,6 +31,10 @@ Features:
 - :battery: the percentage of your battery;
 - :bar_chart: open the MacOS Activity Monitor Application.
 
+Commands:
+- **CMD+SHIFT+1** opens the app.
+- **CMD+SHIFT+0** closes the app.
+
 
 ## Do it by yourself
 
