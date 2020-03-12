@@ -4,6 +4,17 @@
 
 ![screenshot](https://raw.githubusercontent.com/spagnuolocarmine/touchbar-systemmonitor/master/screenshots/touchbar_systemmonitor3.gif?token=ACPXSE6H3RJQIYCIGDVGCAC6OOISG)
 
+By using this application you can see in your Macbook Pro touch bar the status of your system (hardware). When you need you can open the application, which runs as a background process, by digit CMD+SHIFT+1. 
+
+Each metrics is shown in different color accordingly to the load on the particular resource. Moreover, differently to other system monitors, when it is not used, it will be in an idle state, which means it does not will waste your battery.
+
+The system monitor will show you:
+- the average percentage CPU usage;
+- the average percentage RAM memory used, this does not include reserved memory or cache and so on and will show you only the real amount of used memory;
+- the network traffic on your active interface in KB/s;
+- the average percentage IO operations on your disk;
+- the percentage of your battery.
+
 
 ## How to run this project?
 
