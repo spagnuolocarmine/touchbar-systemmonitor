@@ -52,7 +52,7 @@ In March 2020, I began working on this project in my nights to contrast my feeli
 
 This project aims to send a message to all people that have unfortunately have to fight the COVID-19. All of us can contribute to breaking the outbreaks by staying at home. If we really have passionate about somethings we can find more time to do what we love. 
 
-We must remember and/or understand that a pandemic eventually ends, the problem is when and how.  
+**We must remember and/or understand that a pandemic eventually ends, the problem is when and how.** 
 
 This is my personal small (or useless) contribution to help the community to understand better the importance of social interventions in case of a pandemic. 
 
