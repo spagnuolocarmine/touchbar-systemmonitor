@@ -14,7 +14,7 @@
 
 ![screenshot](https://raw.githubusercontent.com/spagnuolocarmine/touchbar-systemmonitor/master/screenshots/touchbar_systemmonitor3.gif?token=ACPXSE6H3RJQIYCIGDVGCAC6OOISG)
 
-<img src="src/icon/cofee-cup.png" alt="logo" height="120" align="right" />
+<img src="src/icons/coffee-cup.png" alt="logo" height="120" align="right" />
 
 # Touch Bar System Monitor
 
