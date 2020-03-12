@@ -2,7 +2,6 @@
 
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/) 
 [![Open Source Love svg3](https://badges.frapsoft.com/os/v3/open-source.svg?v=103)](https://github.com/spagnuolocarmine/touchbar-systemmonitor)
-[![NPM version](https://img.shields.io/npm/v/electron-badge.svg)](https://www.npmjs.com/package/electron-badge)
 
 
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/spagnuolocarmine/touchbar-systemmonitor/graphs/commit-activity) 
@@ -15,16 +14,22 @@
 
 ![screenshot](https://raw.githubusercontent.com/spagnuolocarmine/touchbar-systemmonitor/master/screenshots/touchbar_systemmonitor3.gif?token=ACPXSE6H3RJQIYCIGDVGCAC6OOISG)
 
+<img src="src/icon/cofee-cup.png" alt="logo" height="120" align="right" />
+
+# Touch Bar System Monitor
+
+*A better simple reactive system monitor on macOS for your MacBook pro. Built with [Electron](https://github.com/atom/electron).*
+
 By using this application you can see in your Macbook Pro touch bar the status of your system (hardware). When you need you can open the application, which runs as a background process, by digit CMD+SHIFT+1. 
 
 Each metrics is shown in different color accordingly to the load on the particular resource. Moreover, differently to other system monitors, when it is not used, it will be in an idle state, which means it does not will waste your battery.
 
 Features:
-- the average percentage CPU usage;
-- the average percentage RAM memory used, this does not include reserved memory or cache and so on and will show you only the real amount of used memory;
-- the network traffic on your active interface in KB/s;
-- the average percentage IO operations on your disk;
-- the percentage of your battery.
+- :chart_with_upwards_trend: the average percentage CPU usage;
+- :chart_with_downwards_trend: the average percentage RAM memory used, this does not include reserved memory or cache and so on and will show you only the real amount of used memory;
+- :satellite: the network traffic on your active interface in KB/s;
+- :file_folder: the average percentage IO operations on your disk;
+- :battery: the percentage of your battery.
 
 
 ## Running and building by yourself
