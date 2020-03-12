@@ -23,7 +23,7 @@ By using this application you can see in your Macbook Pro touch bar the status o
 
 Each metrics is shown in different colors accordingly to the load on the particular resource. Moreover, differently to other system monitors, when it is not used, it will be in an idle state, which means it does not will waste your battery.
 
-Features:
+## Features:
 - :chart_with_upwards_trend: the average percentage CPU usage;
 - :chart_with_downwards_trend: the average percentage RAM memory really used, without reserved memory or cache and so.
 - :satellite: the network traffic on your active interface in KB/s;
@@ -31,7 +31,7 @@ Features:
 - :battery: the percentage of your battery;
 - :bar_chart: open the MacOS Activity Monitor Application.
 
-Commands:
+## Commands:
 - **CMD+SHIFT+1** opens the app.
 - **CMD+SHIFT+0** closes the app.
 
