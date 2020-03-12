@@ -54,7 +54,7 @@ This project aims to send a message to all people that have unfortunately have t
 
 **We must remember and/or understand that a pandemic eventually ends, the problem is when and how.** 
 
-This is my personal small (or useless) contribution to help the community to understand better the importance of social interventions in case of a pandemic. 
+This is my personal small (or useless) contribution (better say message) to help the community to understand better the importance of social interventions in case of a pandemic. 
 
 
 
