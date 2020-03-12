@@ -25,7 +25,7 @@ Each metrics is shown in different color accordingly to the load on the particul
 
 Features:
 - :chart_with_upwards_trend: the average percentage CPU usage;
-- :chart_with_downwards_trend: the average percentage RAM memory used, this does not include reserved memory or cache and so on and will show you only the real amount of used memory;
+- :chart_with_downwards_trend: the average percentage RAM memory really used, without reserved memory or cache and so.
 - :satellite: the network traffic on your active interface in KB/s;
 - :file_folder: the average percentage IO operations on your disk;
 - :battery: the percentage of your battery.
