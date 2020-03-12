@@ -1,4 +1,8 @@
-# What is the Touch Bar Macbook Pro System Monitor?
+<img src="src/icons/coffee-cup.png" alt="logo" height="120" align="right" />
+
+# Touch Bar System Monitor
+
+*A better simple reactive system monitor on macOS for your MacBook pro. Built with [Electron](https://github.com/atom/electron).*
 
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/) 
 [![Open Source Love svg3](https://badges.frapsoft.com/os/v3/open-source.svg?v=103)](https://github.com/spagnuolocarmine/touchbar-systemmonitor)
@@ -14,11 +18,6 @@
 
 ![screenshot](https://raw.githubusercontent.com/spagnuolocarmine/touchbar-systemmonitor/master/screenshots/touchbar_systemmonitor3.gif?token=ACPXSE6H3RJQIYCIGDVGCAC6OOISG)
 
-<img src="src/icons/coffee-cup.png" alt="logo" height="120" align="right" />
-
-# Touch Bar System Monitor
-
-*A better simple reactive system monitor on macOS for your MacBook pro. Built with [Electron](https://github.com/atom/electron).*
 
 By using this application you can see in your Macbook Pro touch bar the status of your system (hardware). When you need you can open the application, which runs as a background process, by digit CMD+SHIFT+1. 
 
