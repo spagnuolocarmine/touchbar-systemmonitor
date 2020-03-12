@@ -31,7 +31,7 @@ Features:
 - :battery: the percentage of your battery.
 
 
-## Running and building by yourself
+## Do it by yourself
 
 In order to run locally type the following:
 ```
