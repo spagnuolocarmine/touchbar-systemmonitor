@@ -21,7 +21,7 @@
 
 By using this application you can see in your Macbook Pro touch bar the status of your system (hardware). When you need you can open the application, which runs as a background process, by digiting CMD+SHIFT+1. For quitting the system monitor you can digit CMD+SHIFT+0.
 
-Each metrics is shown in different color accordingly to the load on the particular resource. Moreover, differently to other system monitors, when it is not used, it will be in an idle state, which means it does not will waste your battery.
+Each metrics is shown in different colors accordingly to the load on the particular resource. Moreover, differently to other system monitors, when it is not used, it will be in an idle state, which means it does not will waste your battery.
 
 Features:
 - :chart_with_upwards_trend: the average percentage CPU usage;
@@ -29,7 +29,7 @@ Features:
 - :satellite: the network traffic on your active interface in KB/s;
 - :file_folder: the average percentage IO operations on your disk;
 - :battery: the percentage of your battery;
-- :bar_chart: open ther MacOS Activity Monitor Application.
+- :bar_chart: open the MacOS Activity Monitor Application.
 
 
 ## Do it by yourself
@@ -55,4 +55,6 @@ This project aims to send a message to all people that have unfortunately have t
 **We must remember and/or understand that a pandemic eventually ends, the problem is when and how.** 
 
 This is my personal small (or useless) contribution to help the community to understand better the importance of social interventions in case of a pandemic. 
+
+
 
