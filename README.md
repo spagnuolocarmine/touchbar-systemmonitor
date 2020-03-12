@@ -46,7 +46,7 @@ npm install
 npm run dist
 ```
 
-# Project curiosity "#iorestoacasa"
+# Project curiosity "#iorestoacasa -> #stayathome"
 
 In March 2020, I began working on this project in my nights to contrast my feeling bad during the isolation caused by the Pandemic Influenza of COVID-19 in Italy :-( 
 
