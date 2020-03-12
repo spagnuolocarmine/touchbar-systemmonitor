@@ -16,15 +16,13 @@ The system monitor will show you:
 - the percentage of your battery.
 
 
-## How to run this project?
+## Running and building by yourself
 
-In order to  run locally type the following:
+In order to run locally type the following:
 ```
 npm install
 npm start
 ```
-
-## How to build this project?
 
 In order to  build locally type the following:
 ```
