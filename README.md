@@ -31,10 +31,14 @@ Each metrics is shown in different colors accordingly to the load on the particu
 - :battery: the percentage of your battery;
 - :bar_chart: open the MacOS Activity Monitor Application.
 
-## Commands:
-- **CMD+SHIFT+1** opens the app.
-- **CMD+SHIFT+0** closes the app.
+## Usage
 
+| CMD+SHIFT+1 | Open |
+|-------------|-------|
+| CMD+SHIFT+0 | Close |
+
+# RELEASES
+- [*0.0.1* Alpha pre-release](https://github.com/spagnuolocarmine/touchbar-systemmonitor/releases/tag/0.0.1)
 
 ## Do it by yourself
 
