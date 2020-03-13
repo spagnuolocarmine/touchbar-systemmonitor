@@ -26,7 +26,7 @@ The color each metric is displayed with represents the load of the associated re
 ## Features:
 - `:chart_with_upwards_trend`: the average percentage of CPU usage;
 - `:chart_with_downwards_trend`: the average percentage of actually used RAM, without considering reserved memory or cache and so.
-- `:satellite`: the network traffic on your active interface in KB/s;
+- `:satellite`: the network traffic on your active interface in MB/s;
 - `:file_folder`: the average percentage of IO operations on your disk;
 - `:battery`: the percentage of your battery;
 - `:bar_chart`: it opens the MacOS Activity Monitor Application.

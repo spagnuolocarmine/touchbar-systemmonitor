@@ -86,8 +86,13 @@ const updateData = () => {
   })
   si.networkStats("", function(data) {
     if (typeof data !== 'undefined' && data){
-      network.label = "⇡"+(data[0].tx_sec * 0.001).toFixed(0)
-                      +" ⇣"+(data[0].rx_sec * 0.001).toFixed(0) +" KB/s"
+      kbtx = (data[0].tx_sec * 0.001).toFixed(0)
+      kbrx = (data[0].rx_sec * 0.001).toFixed(0)
+      l = (kbtx+kbrx).toString().length
+
+      network.label = "⇡"+ (kbtx*0.001).toFixed(2)
+        +" ⇣"+ (kbrx*0.001).toFixed(2) +" MB/s"
+     
     }
   })
 
@@ -110,7 +115,13 @@ const updateData = () => {
      
       if (typeof data !== 'undefined' && data){
         load = data.tIO_sec.toFixed(0)
-        disk.label = load+"/s"
+        more = 4-load.toString().length
+        tomore=""
+        for(i=0;i<more;i++)
+        {
+          tomore+="0"
+        }
+        disk.label = tomore+load+"/s"
      
       }
     })
@@ -138,10 +149,8 @@ const touchBar = new TouchBar([
   disk,
   new TouchBarSpacer({size: 'small'}),
   battery,
-  new TouchBarSpacer({size: 'small'}),
-  activitymonitor
-  
 ])
+touchBar.escapeItem =  activitymonitor
 
 let  intervalObj;
 let val = 0
