@@ -33,8 +33,9 @@ Each metrics is shown in different colors accordingly to the load on the particu
 
 ## Usage
 
+|Command| Operation|
+|--------|----------|
 |  CMD+SHIFT+1  | Open |
-| :-: | :-: | :-- |
 |  CMD+SHIFT+0  | Close |
 
 
