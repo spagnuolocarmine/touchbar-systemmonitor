@@ -25,7 +25,7 @@
   "author": "Carmine Spagnuolo",
   "license": "MIT",
   "build": {
-    "appId": "touchbar-systemmonitor",
+    "appId": "Touch Bar System Monitor",
     "mac": {
       "target": "dmg",
       "icon": "src/icons/icon.icns"
