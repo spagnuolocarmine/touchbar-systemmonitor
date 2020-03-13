@@ -182,6 +182,7 @@ app.once('ready', () => {
   globalShortcut.register('CommandOrControl+Shift+0', () => {
     app.quit();
   })
+  app.dock.hide();
  
 })
 
