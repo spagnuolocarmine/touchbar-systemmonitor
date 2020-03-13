@@ -1,6 +1,6 @@
 {
   "name": "touchbar-systemmonitor",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A system monitor in Apple MacBook Pro touch bar -- use it with commmand: CommandOrControl+Shift+1",
   "main": "src/main.js",
   "engines": {

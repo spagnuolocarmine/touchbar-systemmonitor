@@ -46,6 +46,7 @@ The color each metric is displayed with represents the load of the associated re
 |Tag| Name | Description | Download|
 |--------|----------|--------|:---:|
 |  0.0.1 | Alpha pre-release |Macbook Pro macOS Catalina 10.15.2 |[:arrow_down:](https://github.com/spagnuolocarmine/touchbar-systemmonitor/releases/tag/0.0.1)  |
+|  0.0.2 | Alpha pre-release |Macbook Pro macOS Catalina 10.15.2 |[:arrow_down:](https://github.com/spagnuolocarmine/touchbar-systemmonitor/releases/tag/0.0.2)  |
 
 
 ## Do it by yourself
