@@ -138,7 +138,6 @@ const activitymonitor = new TouchBarButton({
     spawn("/System/Applications/Utilities/Activity Monitor.app/Contents/MacOS/Activity\ Monitor", []);
   }
 })
-
 const touchBar = new TouchBar([
   cpu,
   new TouchBarSpacer({size: 'small'}),
