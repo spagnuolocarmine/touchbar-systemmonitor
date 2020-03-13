@@ -43,7 +43,7 @@ Each metrics is shown in different colors accordingly to the load on the particu
 ## RELEASES
 
 |Tag| Name | Description | Download|
-|--------|----------|--------|----------|
+|--------|----------|--------|:---:|
 |  0.0.1 | Alpha pre-release |Macbook Pro macOS Catalina 10.15.2 |[:arrow_down:](https://github.com/spagnuolocarmine/touchbar-systemmonitor/releases/tag/0.0.1)  |
 
 
