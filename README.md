@@ -16,7 +16,7 @@
 [![Donate](https://img.shields.io/badge/PayPal-Donate%20to%20Author-blue.svg)](https://www.paypal.me/CarmineSpagnuolo) [![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://github.com/spagnuolocarmine/touchbar-systemmonitor/issues)
 [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Download%20and%20use%20the%20System%20Monitor%20Touch%20Bar%20for%20your%20MacbookPro&url=https://github.com/spagnuolocarmine/touchbar-systemmonitor&hashtags=macbook,osx,systemmonitor,hardware,touchbar) 
 
-![screenshot](https://raw.githubusercontent.com/spagnuolocarmine/touchbar-systemmonitor/master/screenshots/touchbar_systemmonitor3.gif?token=ACPXSE6H3RJQIYCIGDVGCAC6OOISG)
+![screenshot](https://raw.githubusercontent.com/spagnuolocarmine/touchbar-systemmonitor/master/screenshots/touchbar_systemmonitor3.gif)
 
 
 This application will let you know the status of your system (hardware) in your Macbook Pro touch bar. The application runs as a background process; you can open it by digiting `CMD+SHIFT+1`. For quitting the system monitor, you can digit `CMD+SHIFT+0`.
