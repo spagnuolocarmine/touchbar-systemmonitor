@@ -160,7 +160,6 @@ const focusOnWindow = () => {
   window.setVisibleOnAllWorkspaces(false); 
   updateData();
   intervalObj = setInterval(() => {
-  //  console.log('timeout beyond time',val++);
     updateData();
   }, 1000);
 
@@ -176,15 +175,7 @@ app.once('ready', () => {
   window.on('blur', () => {
     clearInterval(intervalObj);
   });
- 
   focusOnWindow()
-  // let trayIcon = nativeImage.createFromPath(path.join(__dirname, 'icons/coffee-cup.png'));
-  // trayIcon = trayIcon.resize({ width: 16, height: 16 });
-  // tray = new Tray(trayIcon)
-  // tray.setToolTip(appName)
-  // tray.on('click', () => {
-  //   focusOnWindow()
-  // });
   globalShortcut.register('CommandOrControl+Shift+1', () => {
     focusOnWindow()
   })
