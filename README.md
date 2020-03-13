@@ -33,9 +33,11 @@ Each metrics is shown in different colors accordingly to the load on the particu
 
 ## Usage
 
-|-------------|-------|
-| CMD+SHIFT+1 | Open |
-| CMD+SHIFT+0 | Close |
+|  CMD+SHIFT+1  | Open |
+| :-: | :-: | :-- |
+|  CMD+SHIFT+0  | Close |
+
+
 
 ## RELEASES
 - [*0.0.1* Alpha pre-release](https://github.com/spagnuolocarmine/touchbar-systemmonitor/releases/tag/0.0.1)
