@@ -99,6 +99,8 @@ export const updateSystemInfo = () => {
     if (data.main !== -1) {
       const temperature = +data.main.toFixed(0);
       temperatureButton.label = temperature + "°C";
+
+      setButtonColor(batteryButton, data.main);
     } else {
       temperatureButton.label = "Unsupported";
     }
