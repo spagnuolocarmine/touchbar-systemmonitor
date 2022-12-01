@@ -54,12 +54,14 @@ The color each metric is displayed with represents the load of the associated re
 In order to run locally type the following:
 ```
 npm install
+npm run build
 npm start
 ```
 
 In order to  build locally type the following:
 ```
 npm install
+npm run build
 npm run dist
 ```
 
